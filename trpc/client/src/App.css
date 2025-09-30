@@ -1,0 +1,118 @@
+.App {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.App-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.App-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.App-header p {
+  font-size: 1.125rem;
+  color: #4a5568;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: #2d3748;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #1a202c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  background-color: #f7fafc;
+  color: #2d3748;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4299e1;
+  box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"] {
+  background-color: #3182ce;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #2b6cb0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 1rem;
+  background-color: #edf2f7;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-found {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+}
+
+.user-found h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
